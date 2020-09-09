@@ -1,0 +1,32 @@
+:root {
+    --card-bg-color: #eeeeee;
+    --border-radius: 3px;
+}
+
+.thumbnail {
+    background-color: var(--card-bg-color);
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: var(--border-radius);
+    box-shadow: 0 20px 40px 10px rgba(72, 72, 72, 0.18);
+    cursor: pointer;
+}
+
+.thumbnail img,.thumbnail video {
+    width: 100%;
+filter: brightness(.8);
+
+}
+
+.thumbnail h3 {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 0 16px 0;
+}
+
+
+.thumbnail img:hover,.thumbnail video:hover {
+
+
+    filter: contrast(1.1) brightness(1.15) saturate(1.1);
+}

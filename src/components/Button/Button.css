@@ -1,0 +1,13 @@
+button {
+    font-size: 32px;
+    cursor: pointer;
+    /*padding: 16px 32px 16px 32px;*/
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    color: #eeeeee;
+}

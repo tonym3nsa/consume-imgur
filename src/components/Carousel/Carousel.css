@@ -1,0 +1,45 @@
+
+.hidden {
+    display: none;
+}
+
+.preview li {
+    display: inline-block;
+}
+
+.preview {
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.preview li span {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: solid 3px #ffffff;
+    cursor: pointer;
+
+}
+
+
+.preview li span:hover {
+    border-color: #f39c12;
+}
+
+.preview li.active span {
+    border-color: #1abc9c;
+}
+
+.stats h3 {
+    display: inline;
+    line-height: 30px;
+}
+
+.stats li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.stats {
+    padding: 0;
+}

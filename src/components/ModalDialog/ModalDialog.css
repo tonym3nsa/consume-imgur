@@ -1,0 +1,18 @@
+.modal-content {
+    background-color: transparent ;
+}
+
+.modal-body, .modal-header {
+    padding: 0;
+}
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-backdrop.show {
+    opacity: .9;
+}
+
+.modal {
+    color: #ffffff;
+}

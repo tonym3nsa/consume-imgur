@@ -1,0 +1,13 @@
+export const GET_GALLERY = "GET_GALLERY";
+export const GETTING_GALLERY = "GETTING_GALLERY";
+export const HOT = "hot";
+export const TOP = "top";
+export const USER = "user";
+export const TIME = "time";
+export const RISING = "rising";
+export const VIRAL = "viral";
+export const DAY = "day";
+export const WEEK = "week";
+export const MONTH = "month";
+export const YEAR = "year";
+export const ALL = "all";
